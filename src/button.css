@@ -5,7 +5,7 @@
  * Included by default for the header elements.
  */
 
-button, .button, 
+button, .button,
 input[type="button"], input[type="submit"] {
 	background: none;
 	padding: 0.5em 1.75em;
@@ -64,4 +64,10 @@ input.button-primary:hover {
 a {
 	text-decoration: none;
 	color: inherit;
+}
+
+button[disabled], .button[disabled],
+input[type="button"][disabled], input[type="submit"][disabled] {
+	opacity: 0.5;
+	cursor: not-allowed;
 }
