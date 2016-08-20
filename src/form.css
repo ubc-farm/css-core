@@ -31,9 +31,16 @@ select {
 	text-align: inherit;
 }
 
-input:focus, 
+input:focus,
 textarea:focus,
 select:focus {
 	border-color: #888;
 	outline: 0;
+}
+
+input:invalid,
+textarea:invalid,
+select:invalid,
+.invalid {
+	border-color: red;
 }
