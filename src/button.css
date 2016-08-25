@@ -66,8 +66,8 @@ a {
 	color: inherit;
 }
 
-button[disabled], .button[disabled],
-input[type="button"][disabled], input[type="submit"][disabled] {
+button:disabled, .button:disabled,
+input[type="button"]:disabled, input[type="submit"]:disabled  {
 	opacity: 0.5;
 	cursor: not-allowed;
 }
